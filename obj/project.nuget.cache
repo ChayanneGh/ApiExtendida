@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "scRHUFPek0g=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Chayanne\\Documents\\ExtraClass\\123\\ApiExtendida\\ApiExtendida.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Chayanne\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.11\\microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
+    "C:\\Users\\Chayanne\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512"
+  ],
+  "logs": []
+}
