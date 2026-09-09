@@ -6,5 +6,9 @@
         "rgba(79, 236, 236, 0.16)"
     ],
     "indentRainbow.errorColor": "rgba(255, 80, 80, 0.7)",
-    "indentRainbow.colorOnWhiteSpaceOnly": false
+    "indentRainbow.colorOnWhiteSpaceOnly": false,
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net10.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/1b4cb750-8ba2-493b-9f27-531c0f5ad8b5/resourceGroups/ayuntamiento/providers/Microsoft.Web/sites/webAzureDatabase",
+    "liveServer.settings.port": 5501
 }

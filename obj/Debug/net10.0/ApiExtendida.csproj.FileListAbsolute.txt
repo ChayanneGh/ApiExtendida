@@ -1,5 +1,6 @@
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\bin\Debug\net10.0\appsettings.Development.json
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\bin\Debug\net10.0\appsettings.json
+C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\bin\Debug\net10.0\ApiExtendida.staticwebassets.runtime.json
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\bin\Debug\net10.0\ApiExtendida.staticwebassets.endpoints.json
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\bin\Debug\net10.0\ApiExtendida.exe
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\bin\Debug\net10.0\ApiExtendida.deps.json
@@ -54,6 +55,10 @@ C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\rjimsw
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\scopedcss\bundle\ApiExtendida.styles.css
+C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\compressed\kp9v94tre4-{0}-m0hgm5izqj-m0hgm5izqj.gz
+C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\compressed\jqp1rjcaqq-{0}-5ipweew5fc-5ipweew5fc.gz
+C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\compressed\nxmnc5155w-{0}-petdfxrzjp-petdfxrzjp.gz
+C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\compressed\aow9rd4ou2-{0}-5ipweew5fc-5ipweew5fc.gz
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\staticwebassets.development.json

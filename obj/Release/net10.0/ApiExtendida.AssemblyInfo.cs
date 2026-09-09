@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiExtendida")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ddf5ff5c076d35370e7a68f0101bf33c8438aba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bbd3c0679ef509238cfb7640e4dabffc503a447")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiExtendida")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiExtendida")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
