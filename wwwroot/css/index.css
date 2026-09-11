@@ -1,38 +1,33 @@
+/* --- ESTILOS GENERALES (Móviles primero) --- */
 body {
-    /* background-color: #ffffff; */
     background: linear-gradient(to top, #ffffff, #dddbcb);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    padding-bottom: 20px; /* Espacio al final para que no pegue al borde */
 }
 
 #header {
     background-color: #f5f1e3;
-    margin: 0px;
-    /* position: fixed; */
-    padding: 20px 20px 20px 20px;
+    margin: 0;
+    padding: 20px;
     border: 4px solid #dddbcb;
-    /* border-bottom: 5px solid #dddbcb; */
     border-bottom: 5px solid #858585;
-    /* border-radius: 5px 5px 20px 20px; */
-    top: 0;
-    left: 0;
-    right: 0;
 
     & h1 {
         color: #1b9aaa;
+        margin: 0 0 10px 0;
     }
 }
 
 #resources {
     background-color: #f5f1e3;
-    margin: 20px 20px 20px 50px;
-    padding: 20px 20px 20px 20px;
+    margin: 20px; /* Margen uniforme para móviles */
+    padding: 20px;
     border: 5px solid #dddbcb;
     border-radius: 15px;
-    position: fixed;
-    width: 35%;
-    min-width: 300px;
 
     & h2 {
         color: #1b9aaa;
@@ -45,21 +40,44 @@ body {
 
 #Info {
     background-color: #f5f1e3;
-    margin: 0;
-    border-top: 7px solid #dddbcb;
-    border-radius: 15px 15px 0 0;
-    padding: 20px 20px 20px 20px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    margin: 20px; /* Margen uniforme para móviles */
+    border: 5px solid #dddbcb; /* Cambiado a borde completo para consistencia en móvil */
+    border-radius: 15px;
+    padding: 20px;
 
     & h2 {
         color: #1b9aaa;
     }
 }
 
+/* --- ESTILOS PARA PANTALLAS GRANDES (Computadoras) --- */
+@media (min-width: 768px) {
+    body {
+        padding-bottom: 0; /* Reseteo para el info fixed */
+    }
 
+    #resources {
+        position: fixed;
+        width: 35%;
+        min-width: 300px;
+        margin: 20px 20px 20px 50px;
+    }
+
+    #Info {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0;
+        border-top: 7px solid #dddbcb;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        border-radius: 15px 15px 0 0;
+    }
+}
+
+/* Paleta de colores de referencia */
 #colores {
     background-color: #ffffff;
     background-color: #f5f1e3;
