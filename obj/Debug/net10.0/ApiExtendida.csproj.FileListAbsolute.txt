@@ -56,7 +56,7 @@ C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\rjsmra
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\scopedcss\bundle\ApiExtendida.styles.css
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\compressed\3b0wczlnd5-{0}-aczt2bdltr-aczt2bdltr.gz
-C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\compressed\kp9v94tre4-{0}-9yrv7pwbyz-9yrv7pwbyz.gz
+C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\compressed\kp9v94tre4-{0}-gkklamwuxs-gkklamwuxs.gz
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\compressed\lk5mc4pbob-{0}-aczt2bdltr-aczt2bdltr.gz
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\compressed\jqp1rjcaqq-{0}-peq8k3aeyg-peq8k3aeyg.gz
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\compressed\nxmnc5155w-{0}-bvmn8l28xb-bvmn8l28xb.gz
