@@ -6,12 +6,13 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family: sans-serif;
-    padding-bottom: 20px; /* Espacio al final para que no pegue al borde */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 #header {
     background-color: #f5f1e3;
-    margin: 0;
     padding: 20px;
     border: 4px solid #dddbcb;
     border-bottom: 5px solid #858585;
@@ -24,7 +25,7 @@ body {
 
 #resources {
     background-color: #f5f1e3;
-    margin: 20px; /* Margen uniforme para móviles */
+    margin: 0 20px;
     padding: 20px;
     border: 5px solid #dddbcb;
     border-radius: 15px;
@@ -40,8 +41,8 @@ body {
 
 #Info {
     background-color: #f5f1e3;
-    margin: 20px; /* Margen uniforme para móviles */
-    border: 5px solid #dddbcb; /* Cambiado a borde completo para consistencia en móvil */
+    margin: 0 20px 20px 20px;
+    border: 5px solid #dddbcb;
     border-radius: 15px;
     padding: 20px;
 
@@ -53,35 +54,30 @@ body {
 /* --- ESTILOS PARA PANTALLAS GRANDES (Computadoras) --- */
 @media (min-width: 768px) {
     body {
-        padding-bottom: 0; /* Reseteo para el info fixed */
+        display: grid;
+        grid-template-areas: 
+            "header header"
+            "resources info";
+        grid-template-columns: 1fr 2fr; /* Recursos toma 1 parte, Info toma 2 partes */
+        grid-template-rows: auto 1fr;
+        gap: 30px;
+        padding: 0 30px 30px 30px;
+    }
+
+    #header {
+        grid-area: header;
+        margin: 0 -30px; /* Extiende el header de lado a lado */
     }
 
     #resources {
-        position: fixed;
-        width: 35%;
-        min-width: 300px;
-        margin: 20px 20px 20px 50px;
+        grid-area: resources;
+        margin: 0;
+        height: max-content; /* Se ajusta a su propio contenido */
     }
 
     #Info {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
+        grid-area: info;
         margin: 0;
-        border-top: 7px solid #dddbcb;
-        border-bottom: none;
-        border-left: none;
-        border-right: none;
-        border-radius: 15px 15px 0 0;
+        border-radius: 15px;
     }
-}
-
-/* Paleta de colores de referencia */
-#colores {
-    background-color: #ffffff;
-    background-color: #f5f1e3;
-    background-color: #dddbcb;
-    background-color: #1b9aaa;
-    background-color: #050505;
 }
