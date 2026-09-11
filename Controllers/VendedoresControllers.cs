@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Dapper;
 
+namespace ApiExtendida.Controllers;
+
 [ApiController]
 [Route("api/[controller]")]
 public class VendedoresController : ControllerBase

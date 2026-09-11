@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiExtendida")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bbd3c0679ef509238cfb7640e4dabffc503a447")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c96f71db22a9a07bcf4b8eb3426b2026fbc7bdfa")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiExtendida")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiExtendida")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

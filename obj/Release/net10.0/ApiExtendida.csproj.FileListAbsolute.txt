@@ -65,3 +65,9 @@ C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Release\net10.0\refi
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Release\net10.0\ApiExtendida.pdb
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Release\net10.0\ApiExtendida.genruntimeconfig.cache
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Release\net10.0\ref\ApiExtendida.dll
+C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\bin\Release\net10.0\ApiExtendida.staticwebassets.runtime.json
+C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Release\net10.0\compressed\3b0wczlnd5-{0}-x3d36tp06f-x3d36tp06f.gz
+C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Release\net10.0\compressed\kp9v94tre4-{0}-m0hgm5izqj-m0hgm5izqj.gz
+C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Release\net10.0\compressed\jqp1rjcaqq-{0}-3nkjj4r4kk-3nkjj4r4kk.gz
+C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Release\net10.0\compressed\nxmnc5155w-{0}-8q2lq58zsw-8q2lq58zsw.gz
+C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Release\net10.0\compressed\aow9rd4ou2-{0}-5ipweew5fc-5ipweew5fc.gz
