@@ -12,4 +12,10 @@
     <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.2" />
   </ItemGroup>
 
+  <!-- ====== AÑADE ESTE BLOQUE AQUÍ ====== -->
+  <ItemGroup>
+    <Content Include="wwwroot\**" CopyToPublishDirectory="Always" />
+  </ItemGroup>
+  <!-- ==================================== -->
+
 </Project>
