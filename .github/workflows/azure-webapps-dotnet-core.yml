@@ -20,16 +20,18 @@
 name: Build and deploy ASP.Net Core app to an Azure Web App
 
 env:
-  AZURE_WEBAPP_NAME: webAzureDatabase # 👈 ASEGÚRATE DE QUE ESTE SEA EL NOMBRE EXACTO DE TU APP SERVICE EN AZURE
-  AZURE_WEBAPP_PACKAGE_PATH: './publicar' # Ruta unificada para evitar pérdida de archivos
-  DOTNET_VERSION: '10.0.x' # 👈 Cambiado a .NET 10 para coincidir con tu .csproj
+  AZURE_WEBAPP_NAME: webAzureDatabase
+  AZURE_WEBAPP_PACKAGE_PATH: './publicar'
+  DOTNET_VERSION: '10.0.x'
 
 on:
   push:
     branches: [ "main" ]
   workflow_dispatch:
 
+# Permisos requeridos para realizar la autenticación mediante OpenID Connect (OIDC)
 permissions:
+  id-token: write
   contents: read
 
 jobs:
@@ -43,7 +45,6 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
-          include-prerelease: true # Permite procesar los SDKs más recientes de .NET 10
 
       - name: Set up dependency caching for faster builds
         uses: actions/cache@v3
@@ -66,7 +67,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: net-app
-          path: ${{ env.AZURE_WEBAPP_NAME == 'tu-app-service-name' && 'error' || env.AZURE_WEBAPP_PACKAGE_PATH }}
+          path: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
 
   deploy:
     runs-on: ubuntu-latest
@@ -81,10 +82,12 @@ jobs:
           name: net-app
           path: ./despliegue
 
+      # Al usar el Deployment Center con OIDC, Azure se encarga de inyectar las credenciales
+      # de forma transparente sin necesidad de un Publish Profile manual.
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: ./despliegue
+          
