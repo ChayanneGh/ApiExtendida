@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace MiApi.Controllers;
+namespace ApiExtendida.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
