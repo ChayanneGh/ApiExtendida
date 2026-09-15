@@ -7,6 +7,7 @@ namespace ApiExtendida.Controllers;
 public class MCDController : ControllerBase
 {
     [HttpGet("{dividendo:int}/{divisor:int}")]
+    //la pai tiene que resivir los paraetros similar a dividendo%=int y divisor%=int por lo que tiene que estar arregado
     public IActionResult mcd(int dividendo, int divisor)
     {
         while (divisor != 0)
