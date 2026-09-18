@@ -1,0 +1,82 @@
+/* Corrección global indispensable para que los paddings no inflen las cajas */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to top, #ffffff, #dddbcb);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0; /* Evita que los márgenes del body rompan el scroll */
+    
+    /* SOLUCIÓN AL CRECIMIENTO: Forzamos un flujo vertical elástico */
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    background-color: #f5f1e3;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 4px solid #dddbcb;
+    border-bottom: 5px solid #858585;
+
+    & h1 {
+        color: #1b9aaa;
+    }
+}
+
+#resources {
+    background-color: #f5f1e3;
+    margin: 20px 20px 20px 50px;
+    padding: 20px;
+    border: 5px solid #dddbcb;
+    border-radius: 15px;
+    width: 35%;
+    min-width: 300px;
+
+    & h2 {
+        color: #1b9aaa;
+    }
+
+    & a {
+        color: #1b9aaa;
+    }
+}
+
+#Info {
+    background-color: #f5f1e3;
+    border-top: 7px solid #dddbcb;
+    border-radius: 15px 15px 0 0;
+    padding: 20px;
+    
+    /* EL TRUCO MAGICO: 
+       'margin-top: auto' le dice al navegador: "Toma todo el espacio libre que quede 
+       en la pantalla grande y dáselo al margen superior de #Info para mandarlo al fondo". 
+       Cuando haces zoom o en móvil, el espacio libre desaparece, el margen superior se vuelve 0 
+       y la caja fluye limpiamente ABAJO de #resources sin encimarse nunca. */
+    margin-top: auto; 
+
+    & h2 {
+        color: #1b9aaa;
+    }
+}
+
+/* RESPONSIVE: En móviles el menú de 35% de ancho es muy angosto y rompe el diseño. 
+   Con esto hacemos que en pantallas pequeñas se adapte al ancho disponible */
+@media (max-width: 768px) {
+    #resources {
+        width: calc(100% - 40px);
+        margin: 20px;
+        min-width: 0;
+    }
+}
+
+#colores {
+    background-color: #ffffff;
+    background-color: #f5f1e3;
+    background-color: #dddbcb;
+    background-color: #1b9aaa;
+    background-color: #050505;
+}
