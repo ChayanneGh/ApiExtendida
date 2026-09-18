@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e5KiLC02SAg=",
+  "dgSpecHash": "w4k56b4CNoo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Chayanne\\Documents\\ExtraClass\\123\\ApiExtendida\\ApiExtendida.csproj",
+  "projectFilePath": "C:\\Users\\Chayanne\\Documents\\UASD\\2026-2\\Programacion4\\ApiExtendida\\ApiExtendida.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Chayanne\\.nuget\\packages\\dapper\\2.1.79\\dapper.2.1.79.nupkg.sha512",
     "C:\\Users\\Chayanne\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.11\\microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
@@ -24,15 +24,5 @@
     "C:\\Users\\Chayanne\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.13\\system.security.cryptography.pkcs.9.0.13.nupkg.sha512",
     "C:\\Users\\Chayanne\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.13\\system.security.cryptography.protecteddata.9.0.13.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
-      "projectPath": "C:\\Users\\Chayanne\\Documents\\ExtraClass\\123\\ApiExtendida\\ApiExtendida.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\Chayanne\\Documents\\ExtraClass\\123\\ApiExtendida\\ApiExtendida.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

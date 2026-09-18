@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Chayanne\\Documents\\ExtraClass\\123\\ApiExtendida\\ApiExtendida.csproj": {}
+    "C:\\Users\\Chayanne\\Documents\\UASD\\2026-2\\Programacion4\\ApiExtendida\\ApiExtendida.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Chayanne\\Documents\\ExtraClass\\123\\ApiExtendida\\ApiExtendida.csproj": {
+    "C:\\Users\\Chayanne\\Documents\\UASD\\2026-2\\Programacion4\\ApiExtendida\\ApiExtendida.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Chayanne\\Documents\\ExtraClass\\123\\ApiExtendida\\ApiExtendida.csproj",
+        "projectUniqueName": "C:\\Users\\Chayanne\\Documents\\UASD\\2026-2\\Programacion4\\ApiExtendida\\ApiExtendida.csproj",
         "projectName": "ApiExtendida",
-        "projectPath": "C:\\Users\\Chayanne\\Documents\\ExtraClass\\123\\ApiExtendida\\ApiExtendida.csproj",
+        "projectPath": "C:\\Users\\Chayanne\\Documents\\UASD\\2026-2\\Programacion4\\ApiExtendida\\ApiExtendida.csproj",
         "packagesPath": "C:\\Users\\Chayanne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Chayanne\\Documents\\ExtraClass\\123\\ApiExtendida\\obj\\",
+        "outputPath": "C:\\Users\\Chayanne\\Documents\\UASD\\2026-2\\Programacion4\\ApiExtendida\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
