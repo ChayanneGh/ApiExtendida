@@ -74,3 +74,15 @@ C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\refint
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\ApiExtendida.pdb
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\ApiExtendida.genruntimeconfig.cache
 C:\Users\Chayanne\Documents\ExtraClass\123\ApiExtendida\obj\Debug\net10.0\ref\ApiExtendida.dll
+C:\Users\Chayanne\Documents\UASD\2026-2\Programacion4\ApiExtendida\obj\Debug\net10.0\ApiExtendida.csproj.AssemblyReference.cache
+C:\Users\Chayanne\Documents\UASD\2026-2\Programacion4\ApiExtendida\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Chayanne\Documents\UASD\2026-2\Programacion4\ApiExtendida\obj\Debug\net10.0\ApiExtendida.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chayanne\Documents\UASD\2026-2\Programacion4\ApiExtendida\obj\Debug\net10.0\ApiExtendida.AssemblyInfoInputs.cache
+C:\Users\Chayanne\Documents\UASD\2026-2\Programacion4\ApiExtendida\obj\Debug\net10.0\ApiExtendida.AssemblyInfo.cs
+C:\Users\Chayanne\Documents\UASD\2026-2\Programacion4\ApiExtendida\obj\Debug\net10.0\ApiExtendida.csproj.CoreCompileInputs.cache
+C:\Users\Chayanne\Documents\UASD\2026-2\Programacion4\ApiExtendida\obj\Debug\net10.0\ApiExtendida.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Chayanne\Documents\UASD\2026-2\Programacion4\ApiExtendida\obj\Debug\net10.0\ApiExtendida.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Chayanne\Documents\UASD\2026-2\Programacion4\ApiExtendida\obj\Debug\net10.0\ApiExtendida.sourcelink.json
+C:\Users\Chayanne\Documents\UASD\2026-2\Programacion4\ApiExtendida\obj\Debug\net10.0\ApiExtendida.dll
+C:\Users\Chayanne\Documents\UASD\2026-2\Programacion4\ApiExtendida\obj\Debug\net10.0\refint\ApiExtendida.dll
+C:\Users\Chayanne\Documents\UASD\2026-2\Programacion4\ApiExtendida\obj\Debug\net10.0\ApiExtendida.pdb
