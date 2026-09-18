@@ -55,15 +55,15 @@
           "dependencies": {
             "Dapper": {
               "target": "Package",
-              "version": "[2.1.79, )"
+              "version": "[2.1.86, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[10.0.11, )"
+              "version": "[10.0.12, )"
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[7.1.0, )"
             }
           },
           "imports": [
