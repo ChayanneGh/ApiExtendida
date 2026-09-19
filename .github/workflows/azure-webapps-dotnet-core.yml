@@ -52,14 +52,17 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nuget-
 
+      # ➡️ Forzamos a que solo restaure la API
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore ApiExtendida.csproj
 
+      # ➡️ Forzamos a que solo construya la API
       - name: Build with dotnet
-        run: dotnet build --configuration Release --no-restore
+        run: dotnet build ApiExtendida.csproj --configuration Release --no-restore
 
+      # ➡️ Publicamos usando el archivo de proyecto explícito
       - name: dotnet publish
-        run: dotnet publish -c Release -o ${{ env.AZURE_WEBAPP_PACKAGE_PATH }} --no-build
+        run: dotnet publish ApiExtendida.csproj -c Release -o ${{ env.AZURE_WEBAPP_PACKAGE_PATH }} --no-build
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
@@ -80,7 +83,6 @@ jobs:
           name: net-app
           path: ./despliegue
 
-      # Autenticación directa mediante el Perfil de Publicación XML que proporcionaste
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
