@@ -1,3 +1,5 @@
 <Solution>
-  <Project Path="ApiExtendida/ApiExtendida.csproj" />
+  <Project Path="../MCD_BlazorApp1/MCD_BlazorApp1.Client/MCD_BlazorApp1.Client.csproj" Id="47da6fc0-2513-4d3b-8dce-9160dee05f33" />
+  <Project Path="../MCD_BlazorApp1/MCD_BlazorApp1/MCD_BlazorApp1.csproj" Id="20357c14-290a-476e-a28e-ec1a846bb5ab" />
+  <Project Path="ApiExtendida.csproj" />
 </Solution>
