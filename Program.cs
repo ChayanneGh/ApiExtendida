@@ -2,6 +2,9 @@ using ApiExtendida.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Esta línea fuerza al entorno a usar la raíz de la app en lugar de buscar la carpeta 'wwwroot'
+builder.Environment.WebRootPath = AppContext.BaseDirectory;
+
 // Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddScoped<Somee_DataService>();
